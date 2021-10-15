@@ -1,0 +1,4 @@
+This was part of an assignment from my Data Science class, where I was tasked with retrieving automobile data from
+Cars.com, with the assumption that it would be done manually. Instead, I wrote a Python script to scrape HTML pages
+and save the desired information to a .csv file. With my instructor's permission, I shared it with other members
+of my class, with great success.
