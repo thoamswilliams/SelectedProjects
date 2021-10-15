@@ -2,7 +2,7 @@ A turing machine is an abstract computer, modeled by a machine moving over an in
 can take the following steps: read or write a binary character in its current cell, move right/left, change state, 
 or halt (which ends the program). The current state, and the contents of the current cell, dictate the actions of the
 turing machine. The busy beaver is the turing machine that writes the most "1"s, or takes the most steps before 
-halting, but halts in a finite number of steps. 
+halting, but must halt in a finite number of steps. 
 
 I implement a bare-bones program in Java, to conduct a brute-force search for the busy beaver for a machine with 3
 states. I use a linked list to model the memory tape, for maximum efficiency; the program searched across all 17 
